@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.routes.produto_routes import router as produto_router
-from app.routes.auth_routes import router as auth_router
+from app.routes.usuario_routes import router as auth_router
 
 app = FastAPI(title='KiOferta API', version='1.0')
 
